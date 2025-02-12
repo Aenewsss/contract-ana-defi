@@ -7,7 +7,7 @@ const config: HardhatUserConfig = {
   solidity: "0.8.28",
   networks: {
     polygon_amoy: {
-      url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
+      url: `https://polygon-amoy.infura.io/v3/${process.env.INFURA_API_KEY}`,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
     polygon_mainnet: {

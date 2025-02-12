@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "interact:test":"npx hardhat run scripts/interact.ts --network polygon_amoy"
+    "interact:test":"npx hardhat run scripts/interact.ts --network polygon_amoy",
+    "deploy:test":"npx hardhat run scripts/deploy.ts --network polygon_amoy",
+    "local-blockchain": "npx hardhat node"
   },
   "keywords": [],
   "author": "",
